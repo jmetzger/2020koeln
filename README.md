@@ -9,3 +9,5 @@ https://serverfault.com/questions/783861/enabling-ssl-in-mysql-when-using-window
 mysql -uroot -p --ssl-mode=REQUIRED 
 mysql -uroot -p --ssl-mode=DISABLED
 ```
+## Replikation - daten leeren
+https://dev.mysql.com/doc/refman/8.0/en/data-directory-initialization.html
