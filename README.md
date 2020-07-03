@@ -14,3 +14,6 @@ https://dev.mysql.com/doc/refman/8.0/en/data-directory-initialization.html
 
 ## show general instead of hex
 select a.*, convert(a.argument using utf8) from general_log a;
+
+##
+ show global status like '%slow%';
